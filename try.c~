@@ -1,0 +1,12 @@
+#include <unistd.h>
+#include <stdio.h>
+
+int main()
+{
+	char c = 'H';
+
+	write(1,&c,1);
+	printf("\n");
+
+	return 0;
+}

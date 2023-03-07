@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main()
+{
+	int x = 0, y = 1;
+
+	do
+	{
+		x++;
+		while(y <= 9)
+		{
+			
+			{
+				putchar('0' + x);
+				putchar('0' + y);
+				if(x < 9)
+					{
+						putchar(44);
+						putchar(32);
+					}
+			}
+			y++;
+		}
+		x++;
+	}while(x<=9);
+			putchar('\n');
+			return 0;
+	char c;
+	for(c='z'; c>='a'; c--)
+	{
+		putchar(c);
+		putchar(44);
+		putchar(32);
+	}
+	putchar('\n');
+	return 0;
+}
